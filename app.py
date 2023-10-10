@@ -95,6 +95,7 @@ def login():
 
     return render_template('login.html')
 
+
 @app.route('/welcome/<name>')
 def welcome(name):
     # Pass the user information to the template
